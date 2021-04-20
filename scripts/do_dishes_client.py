@@ -82,6 +82,8 @@ if __name__ == '__main__':
     rate = rospy.Rate(10) # 10hz
     while not ya_termino:
         rate.sleep()
+    # O intentar con esto otro:
+    # rospy.spin()
 
     #print("No dejemos al servidor lavando solo.")
     #while not ya_termino:
